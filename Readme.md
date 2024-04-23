@@ -24,7 +24,7 @@ Let's start predicting the future of the stock market together!
 
 ## **Flow of Operations**
 
-This project uses LSTM and ARIMA model for stock market forecasting which can be helpful for investors, traders, academicians and researchers. the file named 'ticker.py' contains the ticker symbol for companies which are used for downloading the historical data from yahoo finance. For now I have added some companies that are listed in the National Stock Exchange (NSE) in India. you can add the companies of your preference. you can add them as lists and the name of the list can be assigned to a variable named 'company_list' which will be used all around the project. so, i recommend not to change the name of the variable. The flow of execution is as follows
+This project uses LSTM and ARIMA model for stock market forecasting which can be helpful for investors, traders, academicians and researchers. the file named **'ticker.py'** contains the ticker symbol for companies which are used for downloading the historical data from yahoo finance. For now I have added some companies that are listed in the National Stock Exchange (NSE) in India. you can add the companies of your preference. you can add them as lists and the name of the list can be assigned to a variable named 'company_list' which will be used all around the project. so, i recommend not to change the name of the variable. The flow of execution is as follows
 
 1. Add the stock ticker to the variable **'comapny_list'**. The project uses Yahoo finance library for fetching historical data, so for Indian companies a suffix of '.NS' is required with each ticker symbol to make them work. so you may have to make adjustments in the ticker.
 
